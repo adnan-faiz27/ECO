@@ -187,12 +187,21 @@ header h1{
 @media only screen and (max-width: 380px) {
     #parent_0 {
       width:21rem ;
+      height: 28.5rem;
+    }
+    header h1{
+        font-size: 1.5rem;
     }
     #child1 , .buttons{
-        width: 8rem;;
+        width: 8rem;
+        
+    }
+    #child1{
+        height: 22.4rem;
     }
     #child2{
         width: 14rem;
+        height: 22.5rem;
     }
     .labels{
         font-size: 1rem;
@@ -202,6 +211,47 @@ header h1{
     }
     #submit{
         width: 21rem;
-    }
+        font-size: 1rem;
 
+    }
+    #output{
+        padding: 1rem 0rem 0rem 0rem;
+        position: relative;
+        
+    }
+    .buttons{
+        height: 2.82rem;
+    }
+  }
+  @media only screen and (max-width: 315px)
+  {
+    #parent_0 {
+        width:19.5rem ;
+        height: 28.5rem;
+      }
+      #child1 , .buttons{
+          width: 7.5rem;
+          
+      }
+      #child1{
+          height: 22.4rem;
+      }
+      #child2{
+          width: 13rem;
+          height: 22.5rem;
+      }
+      .inputs{
+        width: 9rem;
+    }
+    #submit{
+        width: 19.5rem;
+        font-size: 1rem;
+
+    }
+  }
+  @media only screen and (max-width: 280px)
+  {
+    #submit{
+        width: 18.5rem;
+    }
   }
