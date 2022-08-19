@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent_0">
+        <header id="header">
+            <h1>LETS NOT WASTE TIME</h1>
+        </header>
+        <div id="parent_1">
+            <div class="child" id="child1">
+                <button class="buttons" onclick="change(`F/P`)">
+                    F/P
+                </button>
+                <button class="buttons" onclick="change(`P/F`)">
+                    P/F
+                </button>
+                <button class="buttons" onclick="change(`F/A`)">
+                    F/A
+                </button>
+                <button class="buttons" onclick="change(`A/F`)">
+                    A/F
+                </button>
+                <button class="buttons" onclick="change(`P/A`)">
+                    P/A
+                </button>
+                <button class="buttons" onclick="change(`A/P`)">
+                    A/P
+                </button>
+                <button class="buttons" onclick="change(`A/G`)">
+                    A/G
+                </button>
+                <button class="buttons" onclick="change(`I`)">
+                    Ieff
+                </button>
+            </div>
+            <div class="child" id="child2">
+                <div id="div_input">
+                    <h2 id="type">F/P</h2>
+                    <label for="input1" class="labels" id="main_input">P</label>
+                    <input type="text" class="inputs" id="input1">
+                    <label for="input2" class="labels">I%</label>
+                    <input type="text" class="inputs" id="input2">
+                    <label for="input3" class="labels" id="year_label">N(transactions)</label>
+                    <input type="text" class="inputs" id="input3">
+                    <label for="input4" class="labels" id="CP_label">CP</label>
+                    <input type="text" class="inputs" id="input4">
+                    <!-- <label for="input5" class="labels" id="PP_label">PP</label>
+                    <input type="text" class="inputs" id="input5"> -->
+                    <h3 id="output" >OUTPUT</h3>
+                </div>
+               
+            </div>
+            
+        </div>
+        <button id="submit" onclick="calculate()">CALCULATE</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

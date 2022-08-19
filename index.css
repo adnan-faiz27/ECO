@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("DP.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    /* background-color:  #6fc3ff; */
+}
+
+#parent_0{
+    height: 32rem;
+    width: 32rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 5px 20px 4px rgb(0 0 0 / 60%);
+}
+
+
+#parent_1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#type{
+    text-align: center;
+}
+
+
+
+
+
+header h1{
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+    /* background-color: #0467ad; */
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+.buttons{
+    display: block;
+    height: 3.125rem;
+    width: 11rem;
+    /* background-color: #ba4378; */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+}
+.buttons:hover{
+    /* background-color: #ab1e5d; */
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+
+}
+
+#submit{
+    width: 32rem;
+    text-align: center;
+    height: 2.7rem;
+    font-size: 1.5rem;
+    /* background-color: #0467ad; */
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+
+}
+
+#submit:hover{
+    /* background-color: #2424ba; */
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+}
+
+
+.inputs{
+    display: block ;
+    width: 16rem;
+    padding: 0.15rem;
+    color: white;
+    /* background-color: #a3a3ff; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#output{
+    text-align: center;
+    padding: 1.7rem 0rem 0rem 0rem;
+    position: static;
+}
+
+.labels{
+    display: block;
+    padding: 0.7rem 0rem 0.3rem 0rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
+#child1{
+    width: 11rem;
+    height: 25rem;
+}
+#child2{
+    width: 21rem;
+    /* background-color: #2929cf; */
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: px;
+}
+
+@media only screen and (max-width: 510px) {
+    #parent_0 {
+      width:29rem ;
+    }
+    #child1 , .buttons{
+        width: 10rem;;
+    }
+    #child2{
+        width: 19rem;
+    }
+    .inputs{
+        width: 15rem;
+    }
+    #submit{
+        width: 29rem;
+    }
+
+
+  }
+@media only screen and (max-width: 470px) {
+    #parent_0 {
+      width:26rem ;
+    }
+    #child1 , .buttons{
+        width: 9rem;;
+    }
+    #child2{
+        width: 17.5rem;
+    }
+    .inputs{
+        width: 13rem;
+    }
+    #submit{
+        width: 26rem;
+    }
+
+  }
+@media only screen and (max-width: 450px) {
+    #parent_0 {
+      width:24rem ;
+    }
+    #child1 , .buttons{
+        width: 9rem;;
+    }
+    #child2{
+        width: 16rem;
+    }
+    .inputs{
+        width: 12rem;
+    }
+    #submit{
+        width: 24rem;
+    }
+
+  }
+@media only screen and (max-width: 380px) {
+    #parent_0 {
+      width:21rem ;
+    }
+    #child1 , .buttons{
+        width: 8rem;;
+    }
+    #child2{
+        width: 14rem;
+    }
+    .labels{
+        font-size: 1rem;
+    }
+    .inputs{
+        width: 10rem;
+    }
+    #submit{
+        width: 21rem;
+    }
+
+  }
